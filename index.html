@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jayanth Varakala | ECE Graduate & Software Developer</title>
+    <meta name="description" content="Portfolio of Jayanth Varakala - ECE Graduate specializing in C++, Java, Python, VLSI, and Software Development.">
+    <meta name="author" content="Jayanth Varakala">
+    
+    <!-- Open Graph Metadata -->
+    <meta property="og:title" content="Jayanth Varakala - Portfolio">
+    <meta property="og:description" content="Electronics & Communication Engineering Graduate specializing in C++, Java, Python, and VLSI.">
+    <meta property="og:type" content="website">
+
+    <!-- Google Fonts & Font Awesome CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <!-- Scroll Progress Bar -->
+    <div id="scroll-progress"></div>
+
+    <!-- Navigation Header -->
+    <header class="navbar-header">
+        <nav class="navbar" aria-label="Main Navigation">
+            <a href="#hero" class="nav-logo" aria-label="Jayanth Varakala Home">
+                <span class="logo-monogram">JV</span>
+                <span class="logo-text">Jayanth<span>.v</span></span>
+            </a>
+
+            <button class="hamburger-btn" id="hamburger-toggle" aria-label="Toggle Navigation Menu" aria-expanded="false">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <ul class="nav-links" id="nav-menu">
+                <li><a href="#about" class="nav-link"><i class="fa-solid fa-user"></i> About</a></li>
+                <li><a href="#skills" class="nav-link"><i class="fa-solid fa-code"></i> Skills</a></li>
+                <li><a href="#projects" class="nav-link"><i class="fa-solid fa-diagram-project"></i> Projects</a></li>
+                <li><a href="#education" class="nav-link"><i class="fa-solid fa-graduation-cap"></i> Education</a></li>
+                <li><a href="#certifications" class="nav-link"><i class="fa-solid fa-certificate"></i> Certifications</a></li>
+                <li><a href="#contact" class="nav-link"><i class="fa-solid fa-paper-plane"></i> Contact</a></li>
+                <li class="nav-cta-item">
+                    <a href="assets/resume.pdf" class="btn btn-outline nav-btn" download target="_blank" rel="noopener">
+                        <i class="fa-solid fa-download"></i> Resume
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <div class="hero-badge">
+                        <span class="badge-dot"></span> Available for New Opportunities
+                    </div>
+                    <h1 class="hero-title">Jayanth Varakala</h1>
+                    <h2 class="hero-subtitle">Electronics & Communication Engineering Graduate | Software Developer</h2>
+                    <p class="hero-description">
+                        Detail-oriented ECE graduate with a strong foundation in C++, Java, and Python. Passionate about building logical, structured software solutions and exploring VLSI digital design.
+                    </p>
+                    <div class="hero-meta">
+                        <span><i class="fa-solid fa-location-dot"></i> Hyderabad, India</span>
+                        <span><i class="fa-solid fa-envelope"></i> jayanth.xo@gmail.com</span>
+                    </div>
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn btn-primary"><i class="fa-solid fa-eye"></i> View Projects</a>
+                        <a href="assets/resume.pdf" class="btn btn-secondary" download target="_blank" rel="noopener">
+                            <i class="fa-solid fa-file-arrow-down"></i> Download Resume
+                        </a>
+                        <a href="#contact" class="btn btn-outline"><i class="fa-solid fa-headset"></i> Contact Me</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="code-terminal-card">
+                        <div class="terminal-header">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                            <span class="terminal-title">developer_profile.cpp</span>
+                        </div>
+                        <div class="terminal-body">
+                            <pre><code><span class="kwd">#include</span> <span class="str">&lt;iostream&gt;</span>
+<span class="kwd">#include</span> <span class="str">&lt;vector&gt;</span>
+
+<span class="kwd">class</span> <span class="type">Engineer</span> {
+<span class="kwd">public:</span>
+    std::string name = <span class="str">"Jayanth Varakala"</span>;
+    std::string degree = <span class="str">"BTech - ECE"</span>;
+    std::vector&lt;std::string&gt; languages = {<span class="str">"C++"</span>, <span class="str">"Java"</span>, <span class="str">"Python"</span>};
+    std::vector&lt;std::string&gt; domains = {<span class="str">"Software Dev"</span>, <span class="str">"VLSI Design"</span>};
+};
+
+<span class="type">int</span> <span class="func">main</span>() {
+    <span class="type">Engineer</span> jayanth;
+    std::cout &lt;&lt; <span class="str">"Ready to create value & learn continuously."</span>;
+    <span class="kwd">return</span> <span class="num">0</span>;
+}</code></pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">&lt;Overview&gt;</span>
+                    <h2 class="section-title">About Me</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="about-grid">
+                    <div class="about-card main-summary">
+                        <p>
+                            Detail-oriented and motivated Electronics and Communication Engineering graduate with a strong foundation in programming and practical project development. Experienced in C++, Java, and Python for developing logical, structured, and application-oriented solutions.
+                        </p>
+                        <p>
+                            Demonstrates a keen interest in software development, problem solving, and technology-driven projects, with the ability to learn new concepts and adapt to changing technical requirements. Possesses hands-on exposure to Python application development and VLSI-oriented digital design through academic projects. Seeking an opportunity to apply programming knowledge, analytical thinking, and engineering fundamentals in a professional environment while continuing to grow as a technology professional.
+                        </p>
+                    </div>
+                    <div class="about-stats-grid">
+                        <div class="stat-card">
+                            <i class="fa-solid fa-laptop-code"></i>
+                            <h3>Languages</h3>
+                            <p>C++, Java, Python</p>
+                        </div>
+                        <div class="stat-card">
+                            <i class="fa-solid fa-microchip"></i>
+                            <h3>Specialization</h3>
+                            <p>Software & VLSI Adders</p>
+                        </div>
+                        <div class="stat-card">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                            <h3>Degree</h3>
+                            <p>BTech ECE (2026)</p>
+                        </div>
+                        <div class="stat-card">
+                            <i class="fa-solid fa-earth-americas"></i>
+                            <h3>Location</h3>
+                            <p>Hyderabad, India</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section bg-surface">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">&lt;Capabilities&gt;</span>
+                    <h2 class="section-title">Technical & Core Skills</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-group">
+                        <div class="skill-group-header">
+                            <i class="fa-solid fa-code"></i>
+                            <h3>Programming Languages</h3>
+                        </div>
+                        <div class="skill-tags">
+                            <span class="skill-tag"><i class="fa-solid fa-check"></i> C++</span>
+                            <span class="skill-tag"><i class="fa-solid fa-check"></i> Java</span>
+                            <span class="skill-tag"><i class="fa-solid fa-check"></i> Python</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-group">
+                        <div class="skill-group-header">
+                            <i class="fa-solid fa-brain"></i>
+                            <h3>Core Engineering Competencies</h3>
+                        </div>
+                        <div class="skill-tags">
+                            <span class="skill-tag"><i class="fa-solid fa-check"></i> Problem Solving</span>
+                            <span class="skill-tag"><i class="fa-solid fa-check"></i> Analytical Thinking</span>
+                            <span class="skill-tag"><i class="fa-solid fa-check"></i> Hardworking</span>
+                            <span class="skill-tag"><i class="fa-solid fa-check"></i> Adaptability</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-group">
+                        <div class="skill-group-header">
+                            <i class="fa-solid fa-microchip"></i>
+                            <h3>Technical Domains & Tools</h3>
+                        </div>
+                        <div class="skill-tags">
+                            <span class="skill-tag"><i class="fa-solid fa-check"></i> VLSI Digital Design</span>
+                            <span class="skill-tag"><i class="fa-solid fa-check"></i> API Integration</span>
+                            <span class="skill-tag"><i class="fa-solid fa-check"></i> Data Analytics Basics</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">&lt;Portfolio&gt;</span>
+                    <h2 class="section-title">Academic & Technical Projects</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="projects-grid">
+                    
+                    <!-- Project 1 -->
+                    <article class="project-card">
+                        <div class="project-header">
+                            <div class="project-type"><i class="fa-brands fa-python"></i> Software Application</div>
+                            <h3 class="project-title">Weather Monitoring System</h3>
+                        </div>
+                        <p class="project-description">
+                            Engineered a reliable Python-based solution to forecast temperature and humidity using an API key integration. Focuses on structured API communication and reliable data extraction.
+                        </p>
+                        <div class="project-tech-stack">
+                            <span class="tech-badge">Python</span>
+                            <span class="tech-badge">API Key Integration</span>
+                            <span class="tech-badge">Data Handling</span>
+                        </div>
+                        <div class="project-features">
+                            <h4><i class="fa-solid fa-list-check"></i> Key Highlights:</h4>
+                            <ul>
+                                <li>Implemented external API endpoints for live temperature and humidity metrics retrieval.</li>
+                                <li>Ensured error handling for smooth weather data updates.</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <!-- Project 2 -->
+                    <article class="project-card">
+                        <div class="project-header">
+                            <div class="project-type"><i class="fa-solid fa-microchip"></i> Hardware & VLSI Design</div>
+                            <h3 class="project-title">Brent Kung Prefix Adder</h3>
+                        </div>
+                        <p class="project-description">
+                            Increased the speed of digital adders using a 32-bit Brent-Kung model, focusing on efficient carry computation logic and high-speed digital addition.
+                        </p>
+                        <div class="project-tech-stack">
+                            <span class="tech-badge">VLSI</span>
+                            <span class="tech-badge">32-Bit Model</span>
+                            <span class="tech-badge">Digital Design</span>
+                            <span class="tech-badge">Logic Optimization</span>
+                        </div>
+                        <div class="project-features">
+                            <h4><i class="fa-solid fa-list-check"></i> Key Highlights:</h4>
+                            <ul>
+                                <li>Designed efficient carry computation trees for reduced propagation delay.</li>
+                                <li>Demonstrated high-speed performance gains over standard binary adders.</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section bg-surface">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">&lt;Academic Pathway&gt;</span>
+                    <h2 class="section-title">Education</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="timeline">
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">May 2026</span>
+                            <h3 class="degree-title">BTech in Electronics and Communications Engineering</h3>
+                            <h4 class="institution-name">Vidya Jyothi Institute of Technology | Hyderabad</h4>
+                            <div class="grade-badge"><i class="fa-solid fa-chart-line"></i> GPA: 7.0</div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">Mar 2021</span>
+                            <h3 class="degree-title">Intermediate (MPC)</h3>
+                            <h4 class="institution-name">Sri Viswasanthi Educational Institutions | Vijayawada</h4>
+                            <div class="grade-badge"><i class="fa-solid fa-award"></i> Score: 93%</div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">Mar 2019</span>
+                            <h3 class="degree-title">Secondary School Certificate (SSC)</h3>
+                            <h4 class="institution-name">Dr KKR's Gowtham High School | Vijayawada</h4>
+                            <div class="grade-badge"><i class="fa-solid fa-star"></i> CGPA: 9.8</div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications & Highlights Section -->
+        <section id="certifications" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">&lt;Credentials&gt;</span>
+                    <h2 class="section-title">Certifications & Strengths</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="credentials-grid">
+                    <div class="cert-card">
+                        <div class="cert-icon">
+                            <i class="fa-solid fa-award"></i>
+                        </div>
+                        <div class="cert-details">
+                            <span class="cert-provider">IBM Verified</span>
+                            <h3>Introduction to Data Analytics</h3>
+                            <p>Gained fundamental skills in data analytics processes, tools, data handling principles, and analytical methodologies.</p>
+                        </div>
+                    </div>
+
+                    <div class="highlights-card">
+                        <h3><i class="fa-solid fa-lightbulb"></i> Core Professional Strengths</h3>
+                        <ul class="strength-list">
+                            <li><i class="fa-solid fa-angles-right"></i> Strong engineering mathematical and analytical foundation.</li>
+                            <li><i class="fa-solid fa-angles-right"></i> Multilingual programming readiness in C++, Java, and Python.</li>
+                            <li><i class="fa-solid fa-angles-right"></i> Practical exposure bridging both software development and VLSI logic design.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section bg-surface">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">&lt;Connect&gt;</span>
+                    <h2 class="section-title">Get In Touch</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="contact-wrapper">
+                    <div class="contact-info-cards">
+                        <a href="mailto:jayanth.xo@gmail.com" class="contact-card">
+                            <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+                            <div class="contact-details">
+                                <span class="contact-label">Email Address</span>
+                                <span class="contact-value">jayanth.xo@gmail.com</span>
+                            </div>
+                        </a>
+
+                        <a href="tel:+919573387721" class="contact-card">
+                            <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+                            <div class="contact-details">
+                                <span class="contact-label">Phone Number</span>
+                                <span class="contact-value">+91 9573387721</span>
+                            </div>
+                        </a>
+
+                        <div class="contact-card">
+                            <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+                            <div class="contact-details">
+                                <span class="contact-label">Current Location</span>
+                                <span class="contact-value">Hyderabad, India</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <a href="#hero" class="footer-logo">JV</a>
+                <p>Jayanth Varakala &bull; Electronics & Communication Engineer</p>
+            </div>
+            <div class="footer-nav">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#education">Education</a>
+                <a href="#certifications">Certifications</a>
+            </div>
+            <div class="footer-copy">
+                <p>&copy; <span id="current-year">2026</span> Jayanth Varakala. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" aria-label="Back to Top"><i class="fa-solid fa-arrow-up"></i></button>
+
+    <!-- Custom Script -->
+    <script src="index.js"></script>
+</body>
+</html>
